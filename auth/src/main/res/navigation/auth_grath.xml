@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_grath"
+    app:startDestination="@id/singInFragment">
+
+    <fragment
+        android:id="@+id/singInFragment"
+        android:name="com.a5k.auth.view.SingInFragment"
+        android:label="fragment_sing_out"
+        tools:layout="@layout/fragment_sing_out" />
+    <fragment
+        android:id="@+id/singOutFragment"
+        android:name="com.a5k.auth.view.SingOutFragment"
+        android:label="SingOutFragment" />
+</navigation>

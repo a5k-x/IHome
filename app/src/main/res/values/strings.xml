@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IHome</string>
+    <string name="news_text_label">Новости</string>
+    <string name="smart_home_label">Умный дом</string>
+    <string name="analytics_label">Аналитика</string>
+
+
+
+</resources>
